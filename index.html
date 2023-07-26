@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale01.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Genaro Segura</title>
+        <link rel="stylesheet" href="./css/estilo.css">
+    </head>
+    <body>
+        <!--MENU ENCABEZADO-->
+        <div class="contenedor-header">
+            <header>
+                <div class="logo">
+                    <a href="#">GENARO</a>
+                </div>
+                <nav id="nav">
+                    <ul>
+                        <li>><a href="#inicio" onclick="seleccionar">INICIO</a></li>
+                        <li>><a href="#sobremi" onclick="seleccionar">SOBRE MI</a></li>
+                        <li>><a href="#skills" onclick="seleccionar">SKILLS</a></li>
+                        <li>><a href="#curriculum" onclick="seleccionar">CURRICULUM</a></li>
+                        <li>><a href="#portafolio" onclick="seleccionar">PORTAFOLIO</a></li>
+                        <li>><a href="#contacto" onclick="seleccionar">CONTACTO</a></li>
+                    </ul>
+                </nav>
+                <div class="nav-responsive"></div>
+                    <i class="fa-solid fa-bars"></i>"
+            </header>
+        </div>
+        <!--SECCION INICIO-->
+        <section id="inicio" class="inicio">
+            <div class="contenido-banner">
+                <div class="contenedor-img">
+                    <img src="./img/profilepic.jpg" alt="Profile">
+                </div>
+                <h1>GENARO SEGURA</h1>
+                <h2>Project Manager & Business development</h2>
+                <div class="redes">
+                    <a href="https://www.linkedin.com/in/genaro-segura-066615233"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/GenaroSegu"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://twitter.com/GenaroSeGu"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.youtube.com/@sgenaro"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.twitch.tv/sgenaro"><i class="fa-brands fa-twitch"></i></a>
+                </div>    
+            </div>
+        </section>
+
+        <!--SECCION SOBRE MI-->
+        <section id="sobremi" class="sobremi">
+            <div class="contenido-seccion">
+                <h2>Sobre Mi</h2>
+                <p><span>Hola, soy Genaro Segura </span>Como Project Manager, 
+                    estoy capacitado para administrar y mantener bases de datos de clientes dentro de plataformas tecnologicas, 
+                    lo que garantiza la precisión y la puntualidad de la información del cliente. 
+                    Tengo una sólida experiencia en gestionar equipos comerciales y desarollo de proyectos tecnologicos, 
+                    resolviendo los problemas de de manera oportuna y eficiente, logrando los objetivos empresariales. </p>
+
+                    <div class="fila">
+                        <!--datos personales-->
+                        <div class="col">
+                            <h3>Datos personales</h3>
+                            <ul>
+                                <li>
+                                    <strong>Cumpleaños</strong>
+                                    19-09-1987
+                                </li>
+                                <li>
+                                    <strong>Telefono</strong>
+                                    (+52) 4612256860
+                                </li>
+                                <li>
+                                    <strong>Email</strong>
+                                    gsegura1909@gmail.com
+                                </li>
+                                <li>
+                                    <strong>Direccion</strong>
+                                    Sabino 200 Celaya, GTO, Mexico.
+                                </li>
+                                <li>
+                                    <strong>Cargo</strong>
+                                    <span>Admin Salesforce</span>
+                                </li>                                                              
+                            </ul>
+                        </div>
+
+                        <!--intereses-->
+                        <div class="col">
+                            <h3>Intereses</h3>
+                            <div class="contenedor-intereses">
+                                <div class="interes">
+                                    <i class="fa-solid fa-gamepad"></i>
+                                    <span>JUEGOS</span>
+                                </div>
+                                <div class="interes">
+                                    <i class="fa-solid fa-headphones"></i>
+                                    <span>MUSICA</span>
+                                </div>
+                                <div class="interes">
+                                    <i class="fa-solid fa-plane"></i>
+                                    <span>VIAJAR</span>
+                                </div>
+                                <div class="interes">
+                                    <i class="fa-brands fa-apple"></i>
+                                    <span>MAC OS</span>
+                                </div>
+                                <div class="interes">
+                                    <i class="fa-solid fa-person-hiking"></i>
+                                    <span>DEPORTE</span>
+                                </div>
+                                <div class="interes">
+                                    <i class="fa-solid fa-book"></i>
+                                    <span>LIBROS</span>
+                                </div>
+                                <div class="interes">
+                                    <i class="fa-solid fa-car"></i>
+                                    <span>AUTOS</span>
+                                </div>
+                                <div class="interes">
+                                    <i class="fa-solid fa-camera"></i>
+                                    <span>FOTOS</span>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <button>
+                        Descargar CV <i class="fa-solid fa-download"></i>
+                        <span class="overlay"></span>
+                        <a href="https://genarosegu.github.io/CV-Resumen/" class="btn"></a>
+                    </button>
+                </div>
+            </section>
+       <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Admin Salesforce</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>69%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Git & Github</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>69%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trello</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dev Jr</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Team Work</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Project Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+       <!-- SECCION CURRICULUM -->
+       <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Lic. Gestion y Desarollo Empresarial</h4>
+                        <span class="casa">Universidad Virtual GTO.</span>
+                        <span class="fecha">2019 - 2023</span>
+                        <p>Actualmente mi profesion esta enfocada a la gestion y desarollos empresariales con direccion tecnologica e innovacion</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Double Ranger</h4>
+                        <span class="casa">Salesforce Trailhead</span>
+                        <span class="fecha">2021 - 2023</span>
+                        <p>Cuento con conocimiento en plataformas SaaS enfocado en Salesforce, CRM con alto rendimiento en gestion y relacion con el cliente</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>HTML5 & CSS3</h4>
+                        <span class="casa">Alura LATAM</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>Manejo concocimiento de codigo en HTML5 & CSS3 manteniendo certificaciones de los mismos</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Project Manager (CRM Salesforce)</h4>
+                        <span class="casa">Corporativo Tresguerras</span>
+                        <span class="fecha">2022 - Actualmente</span>
+                        <p>Desarrollador de tareas y procesos automatizados Modelado, gestión y seguridad de datos Gestión y desarrollo de indicadores clave para el proyecto de principio a fin
+                            Desarrollo, configuración e implementación de soluciones tecnológicas a medida Desarrollo y personalización de plataforma Salesforce orientada a SalesCloud</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Business Project Manager</h4>
+                        <span class="casa">Totalplay Telecomuniaciones</span>
+                        <span class="fecha">2021 - 2022</span>
+                        <p>Coordinación y estrategia comercial, traducción de informes y análisis de datos de Salesforce
+                            Gestión y mantenimiento de licencias de usuario de Salesforce
+                            Servicio en la nube y ventas en la nube de personalización y desarrollo empresarial</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Coordinator Data Analyst</h4>
+                        <span class="casa">Liverpool Almacenes</span>
+                        <span class="fecha">2019 - 2021</span>
+                        <p>Coordinador de analista de datos de crédito y cobranza, implementación y ejecución de tecnologías de la información en el departamento de marketing</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- SECCION PORTFOLIO -->
+     <section id="portafolio" class="portafolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/Ranger double.PNG" alt="">
+                    <div class="overlay">
+                        <h3>Doble Ranger Star</h3>
+                        <p>Salesforce</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/RedmiGithub.JPG" alt="">
+                    <div class="overlay">
+                        <h3>DEV Jr Profile Git</h3>
+                        <p>Developer</p>
+                    </div>
+                </div>     
+                <div class="proyecto">
+                    <img src="img/devform.JPG" alt="">
+                    <div class="overlay">
+                        <h3>Dev Jr</h3>
+                        <p>Developer</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/GIT AND GITHUB.PNG" alt="">
+                    <div class="overlay">
+                        <h3>Git & GitHub</h3>
+                        <p>Certificado</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/CSSdescopilando.JPG" alt="">
+                    <div class="overlay">
+                        <h3>CSS Arquitectura</h3>
+                        <p>CSS3</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/HTML 5.PNG" alt="">
+                    <div class="overlay">
+                        <h3>Dev Jr</h3>
+                        <p>Desarollador</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- SECCION CONTACTO -->
+     <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Sabino 200, Celaya GTO. Mexico
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamame: +52 461 2256860 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: gsegura1909@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/genaro-segura-066615233"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/GenaroSegu"><i class="fa-brands fa-github"></i></a>
+            <a href="https://twitter.com/GenaroSeGu"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.youtube.com/@sgenaro"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.twitch.tv/sgenaro"><i class="fa-brands fa-twitch"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    </body>
+</html>
+
+
